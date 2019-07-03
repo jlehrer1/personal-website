@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'potralight';
+    src: url('/fonts/potra.woff2') format('woff2'),
+         url('/fonts/potra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#title {
+    font-family: "potralight";
+    font-weight: normal;
+    font-style: normal;
+    align-content: center;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    padding-top: 1%;
+}
+
+
+h1 {
+    margin: 0px 0px 0px 0px;
+}
+
+[class*="col-"] {
+    padding-left: 3%;
+}
+
+#navbar {
+    background-color: black;
+    color: wheat !important;
+}
+
+.navbar a {
+    color: white !important;
+    font-family: 'B612 Mono', monospace;
+}
+
+#subtitle {
+    font-family: 'B612 Mono', monospace;
+    background-color: black;
+    color: white;
+    font-size: 80%;
+    text-align: left;
+}
+
+#titleContainer {
+    background: url(/resources/star-background.jpg);
+}
+
+.project-body {
+    background-color: #373c45;
+    color: whitesmoke;
+    font-family: 'B612 Mono', monospace;
+    font-size: 80%;
+}

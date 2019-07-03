@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'potralight';
+    src: url('/fonts/potra.woff2') format('woff2'),
+         url('/fonts/potra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row {
+    background-color: #373c45;
+}
+
+.projectText {
+    padding-top: 1%;
+}
+
+#readMoreArduino {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+

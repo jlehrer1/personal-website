@@ -1,0 +1,8 @@
+.about-body {
+    font-family: 'B612 Mono', monospace;
+    font-size: 80%;
+}
+
+#main {
+    background: url(/resources/moon-background.png);
+}
