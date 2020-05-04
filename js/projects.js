@@ -1,14 +1,12 @@
 $(document).ready(function () {
-
-
-    $('#text1').text("An iOS app that gives the user information about air quality in their area.")
-    $('#text1-1').text("Using Swift 4 and thee OpenWeatherMap pollution API, my app first gets the location of the user, makes a .GET request to OpenWeatherMap, and returns data about air pollutants in the area. Then, using the Air Quality Index from weather.gov, the app the levels of precaution that should be taken.")
-    $('#text2').text("I self-taught myself web development with HTML, CSS, and Javascript, and created this website to showcase my resume, personal projects and academic work.")
-    $('#text2-1').text("Over the summer of 2019, I decided it was time to get serious about entrepreneurship and working on my personal projects. I thought making a website would not only allow me to show that I have programming skills, but also allow me to create a product that can showcase my work and discuss my academic achievements and work experience.")
-    $('#text3').text("I created this bot for the personal discord server I share with my friends.")
-    $('#text3-1').text("Using Javascript and Express, the bot returns various text responses based on user input.")
-    $('#text4-1').text("Retrieves top headlines of a selected company using the gnews.io public API, determines the public sentiment of the company using the TextBlob NLP Classification Model’s sentiment analysis. Deployed using Flask and Python 3.")
-    $('#text4').text("Determines the public sentiment of a company.")
+    $('#text1').text("The Transparency Project, a CruzHacks 2020 1st place project. Our goal being bringing clarity to the American political process through interactive data visualizations.")
+    $('#text1-1').text("Built using primarily Flask, Plotly, and Dash, The Transparency Project was 1st place at CruzHacks 2020. I primarily worked on data collection, cleaning, and visualization.")
+    $('#text2').text("DengAI from DrivenData.co, where participants were challenged to predict the number of cases of Dengue Fever in two South American countries")
+    $('#text2-1').text("Achieved a top 12% global score using a combination of linear models, gradient boosting, and Facebook Prophet")
+    $('#text3').text("Build with Tensorflow and Keras, this program returns a trained CNN to detect images of the object of your choice")
+    $('#text3-1').text("Scrapes Google Images with Google CSE API, collects a sample of random images, then trains a convolutional neural network to recognize images of the given search term. Returns a .tf model.")
+    $('#text4-1').text("You're looking at it! The first of my web development endevours.")
+    $('#text4').text("Built with JQuery, Bootstrap, HTML, CSS.")
     $('body').scrollspy({
         target: '#projectListNavbar'
     });
