@@ -21,27 +21,25 @@
     animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-.col-2 {
+.container-fluid {
+    padding-left: 20%;
+    padding-right: 25%;
     animation: fade-in 0.5s 1;
 }
 
-.col-10 {
-    animation: fade-in 0.75s 1;
+.row2 {
+    padding-left: 17%;
 }
 
-#text1, #text2, #text3, #text4 {
-    font-size: 120%;
-}
-
-#text1, #text1-1, #text2, #text2-1, #text3, #text3-1, #text4-1, #text4 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-#text2-1 {
-    padding-bottom: 0px;
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
 }
 
 
-
-
-
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}

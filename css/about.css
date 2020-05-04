@@ -1,8 +1,118 @@
-.about-body {
-    font-family: 'B612 Mono', monospace;
-    font-size: 80%;
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
 }
 
-#main {
-    background: url(/resources/moon-background.png);
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
 }
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.slide-in-right {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.jumbotron h1 {
+    font-size: 150%;
+}
+
+.jumbotron {
+    padding-left: 4%;
+    color: black;
+    background: transparent;
+    animation: slideinleft 0.25s 1;
+    -webkit-animation: slide-in-right 0.25s 1;
+    padding-bottom: 0px;
+}
+
+.jumbotron2 {
+    padding-right: 4%;
+    color: black;
+    text-align: right;
+    animation: slide-in-right 0.25s 1;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+}
+
+.arrow-right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+}
+
+
+#toProjectsButton{
+    text-align: center;
+    font-family: 'Armata', sans-serif;
+    animation: slide-in-left 0.25s 1;
+}
+
+#toProjectsButton a {
+    color: black;
+}
+
+#socialProfiles img {
+     object-fit: contain;
+     max-width: 100%;
+     height: auto;
+}
+
+#socialProfiles {
+    padding-top: 5%;
+    height: 100px;
+    width: 200px;
+}
+
