@@ -1,6 +1,6 @@
 RewriteEngine on
 
-
+# Removes .html from url
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
 
